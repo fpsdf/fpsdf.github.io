@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-![](https://fakeimg.pl/600x400)
+![](https://fakeimg.pl/600x400.png)
 
 This is an example page!
 
