@@ -6,6 +6,7 @@ entries:
     entries:
       - title: "I'm a developer with a thing for clean design, problem-solving and building stuff that's actually nice to use"
       - title: "<a href='/about'>more...</a>"
+      - title: "<a href='mailto:franciscopauloferreira@gmail.com'>email me</a>"
       - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
 
   - title: all posts
