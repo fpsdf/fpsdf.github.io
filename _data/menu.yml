@@ -16,10 +16,3 @@ entries:
       show_more_text: archive...
       show_more_url: archive.html
   
-  - title: another list
-    entries:
-      - title: with subitems
-        entries:
-          - title: with subsubitems
-          - title: example page
-            url: about
