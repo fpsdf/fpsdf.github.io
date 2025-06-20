@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-![](https://fakeimg.pl/600x400.png)
+![](https://picsum.photos/200/300)
 
 This is an example page!
 
