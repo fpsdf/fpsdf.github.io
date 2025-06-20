@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-![](https://picsum.photos/200/300)
+![](https://picsum.photos/1920/1080)
 
 This is an example page!
 
