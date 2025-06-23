@@ -12,7 +12,7 @@ There’s something really nice — maybe even grounding — about building a sm
 
 I recently built a tiny little tool this way (I'll share it here soon), and it reminded me that simplicity can be a feature, not a limitation. It loads fast. It works offline. There’s no client-side routing to debug. And I can deploy it anywhere in seconds — GitHub Pages, a zip file, whatever.
 
-Don’t get me wrong: I love modern tools. I’m learning React. I see the power of components, state, all that good stuff. But sometimes, stripping things back reminds me *why* I like to build things in the first place.
+Don’t get me wrong: I love modern tools. I see the power of components, state, all that good stuff. But sometimes, stripping things back reminds me *why* I like to build things in the first place.
 
 No tool between me and the idea.
 
