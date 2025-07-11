@@ -1,10 +1,11 @@
 ---
 title: "Learning React with a designer’s mindset"
+layout: post
 ---
 
-When I started learning React, I did what most people do: followed tutorials, copied some code, and tried to understand what `useState` actually *does*.
+When I started learning React, I did what most people do: followed tutorials, copied some code, and tried to understand what `useState` actually _does_.
 
-But the thing is — I came to React mostly from a design background. My brain doesn’t start with “how do I structure this in code?” — it starts with *“what should this look and feel like?”* and *“how does the user move through it?”*
+But the thing is — I came to React mostly from a design background. My brain doesn’t start with “how do I structure this in code?” — it starts with _“what should this look and feel like?”_ and _“how does the user move through it?”_
 
 At first, that felt like a disadvantage. I wasn’t thinking in components and props — I was thinking in buttons, screens, flows.
 
