@@ -24,4 +24,4 @@ React started to feel less like a “framework” and more like a toolbox for bu
 
 ---
 
-> TL;DR: If you're a designer learning React — you're not behind. You're just thinking in components before you even touch code.
+> TL;DR: A designer learning React is not behind. They're just thinking in components before they even touch code.

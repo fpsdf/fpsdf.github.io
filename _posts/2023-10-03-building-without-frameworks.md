@@ -19,4 +19,3 @@ No tool between me and the idea.
 
 ---
 
-> Have you built something recently with just the basics? Try it. It’s kind of refreshing.

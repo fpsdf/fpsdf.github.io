@@ -2,10 +2,8 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
-    entries:
-      - title: "I'm a developer with a thing for clean design, problem-solving and building stuff that's actually nice to use. <a href='/about'>more...</a>"
-      - title: "<a href='mailto:franciscopauloferreira@gmail.com'>email me</a>"
+  - title: "I know it's hard to build interfaces that don't suck. <a href='/about'>more...</a>"
+  - title: "<a href='mailto:franciscopauloferreira@gmail.com'>email me</a>"
 
   - title: posts
     post_list:
