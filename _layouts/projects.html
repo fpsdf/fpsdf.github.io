@@ -1,0 +1,125 @@
+---
+layout: default
+---
+
+{%-include back_link.html-%}
+
+<h1>{{ page.title }}</h1>
+
+{% if page.description %}
+<p>{{ page.description }}</p>
+{% endif %}
+
+<style>
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  border: 1px solid var(--border);
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  /* transform: translateY(-4px); */
+}
+
+.project-card:active {
+  transform: translateY(2px);
+}
+
+.project-thumbnail {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gradient-1 { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+.gradient-2 { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+.gradient-3 { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+.gradient-4 { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+.gradient-5 { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+.gradient-6 { background: linear-gradient(135deg, #30cfd0 0%, #330867 100%); }
+
+.project-info {
+  padding: 1rem;
+}
+
+.project-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.project-description {
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+  opacity: 0.8;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid var(--border);
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+</style>
+
+<div class="projects-grid">
+  {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+  {% for project in sorted_projects %}
+  <a href="{{ project.url | relative_url }}" class="project-card">
+    <div class="project-thumbnail {% if project.gradient %}gradient-{{ project.gradient }}{% endif %}">
+      {% if project.thumbnail %}
+        <img src="{{ project.thumbnail | relative_url }}" alt="{{ project.title }}">
+      {% elsif project.emoji %}
+        {{ project.emoji }}
+      {% else %}
+        📦
+      {% endif %}
+    </div>
+    <div class="project-info">
+      <div class="project-title">{{ project.title }}</div>
+      {% if project.description %}
+      <div class="project-description">{{ project.description }}</div>
+      {% endif %}
+      {% if project.tech_stack %}
+      <div class="project-tags">
+        {% for tech in project.tech_stack limit:4 %}
+        <span class="tag">{{ tech }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </a>
+  {% endfor %}
+</div>

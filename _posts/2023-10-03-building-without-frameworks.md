@@ -1,5 +1,5 @@
 ---
-title: "Building without frameworks: pure HTML/CSS/JS feels good sometimes"
+title: "Building without frameworks"
 layout: post
 ---
 
