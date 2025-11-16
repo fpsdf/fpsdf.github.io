@@ -7,7 +7,7 @@ tech_stack:
 date: 2024-10-15
 emoji: 👨‍⚖️
 gradient: 2
-live_url: https://debate-timer-ftm6gjstf-franciscos-projects-c340c36a.vercel.app/
+live_url: https://debate-timer-kappa.vercel.app/
 github_url: https://github.com/fpsdf/debate-timer
 ---
 
