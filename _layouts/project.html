@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{%-include back_link.html-%}
+{%-include back_link.html-%} &nbsp; <a href="{{ '/projects.html' | relative_url }}">↩ to projects</a>
 
 <style>
 .project-header {
@@ -71,7 +71,7 @@ layout: default
 }
 
 .tech-item {
-  padding: 0.4rem 0.8rem;
+  padding: 0.4rem 0.8rem 0.4rem 0;
   border: 1px solid var(--border);
   font-size: 0.9rem;
 }
@@ -111,7 +111,7 @@ layout: default
   
   <div class="project-meta">
     {% if page.date %}
-    <span>📅 {{ page.date | date: "%Y-%m-%d" }}</span>
+    <!-- <span>📅 {{ page.date | date: "%Y-%m-%d" }}</span> -->
     {% endif %}
     {% if page.category %}
     <span>🏷️ {{ page.category }}</span>
@@ -132,10 +132,10 @@ layout: default
 {% if page.live_url or page.github_url %}
 <div class="project-links">
   {% if page.live_url %}
-  <a href="{{ page.live_url }}" target="_blank" rel="noopener noreferrer">View Live Project →</a>
+  <a href="{{ page.live_url }}" target="_blank" rel="noopener noreferrer">launch ↗</a>
   {% endif %}
   {% if page.github_url %}
-  <a href="{{ page.github_url }}" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+  <a href="{{ page.github_url }}" target="_blank" rel="noopener noreferrer">repo ↗</a>
   {% endif %}
 </div>
 {% endif %}
@@ -154,4 +154,4 @@ layout: default
 
 <hr style="margin: 3rem 0;">
 
-<p><a href="{{ '/projects.html' | relative_url }}">← back to projects</a></p>
+<!-- <p><a href="{{ '/projects.html' | relative_url }}">← back to projects</a></p> -->
