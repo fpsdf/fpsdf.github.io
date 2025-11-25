@@ -110,12 +110,12 @@ layout: default
     <div class="project-info">
       <div class="project-title">{{ project.title }}</div>
       {% if project.description %}
-      <div class="project-description">{{ project.description }}</div>
+      <!-- <div class="project-description">{{ project.description }}</div> -->
       {% endif %}
       {% if project.tech_stack %}
       <div class="project-tags">
         {% for tech in project.tech_stack limit:4 %}
-        <span class="tag">{{ tech }}</span>
+        <!-- <span class="tag">{{ tech }}</span> -->
         {% endfor %}
       </div>
       {% endif %}

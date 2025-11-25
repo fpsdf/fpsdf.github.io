@@ -1,5 +1,5 @@
 ---
 layout: projects
 title: projects
-description: web things i've built
+description: some web things i've built, for your sensory pleasure
 ---
