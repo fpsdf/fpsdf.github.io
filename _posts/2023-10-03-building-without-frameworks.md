@@ -1,21 +1,16 @@
 ---
-title: "Building without frameworks"
+title: "building without frameworks"
 layout: post
 ---
 
-You know that moment when you're setting up a project and suddenly you’re not building something — you’re configuring something?
+tooling, build steps, plugins, dependencies, modules, bundlers… before you’ve written a single line of real code, you’ve already been through a small bureaucratic hell.
 
-Tooling, build steps, plugins, dependencies, modules, bundlers… before you’ve written a single line of real code, you’ve already been through a small bureaucratic hell.
+that’s when I sometimes just open a folder, drop in an `index.html`, a `style.css` and a `script.js`, and go: _ahhh_. no build, no deploy pipeline, no dependencies yelling at me because Node updated. just a browser and some basic files.
 
-That’s when I sometimes just open a folder, drop in an `index.html`, a `style.css`, and a `script.js`, and go: _ahhh_. No build, no deploy pipeline, no dependencies yelling at me because Node updated. Just a browser and some basic files.
+there’s something really nice or maybe even grounding about building a small project without any frameworks. just HTML, CSS, and JavaScript like it’s 2004.
 
-There’s something really nice — maybe even grounding — about building a small project without any frameworks. No React, no Vue, no nothing. Just HTML, CSS, and JavaScript, like it’s 2007 (but in a good way).
+I recently built a tiny little project this way (I'll share it here soon. or maybe never), and it reminded me that simplicity can be a feature. it loads fast. it works offline. no client-side routing to debug. and I can deploy it anywhere in seconds — GitHub Pages, a zip file, whatever.
 
-I recently built a tiny little tool this way (I'll share it here soon), and it reminded me that simplicity can be a feature, not a limitation. It loads fast. It works offline. There’s no client-side routing to debug. And I can deploy it anywhere in seconds — GitHub Pages, a zip file, whatever.
-
-Don’t get me wrong: I love modern tools. I see the power of components, state, all that good stuff. But sometimes, stripping things back reminds me _why_ I like to build things in the first place.
-
-No tool between me and the idea.
+I love modern tools. I see the power of components, state, all the good stuff. but sometimes, stripping things back reminds me _why_ I like to build things in the first place.
 
 ---
-
