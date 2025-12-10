@@ -45,7 +45,7 @@ part 2: the normal way
 
 Here's the same thing with a service:
 
-```html
+```
 @Injectable({providedIn: 'root'}) export class TodoService { private todos =
 signal<Todo[]
   >([]); readonly todos$ = computed(() => this.todos()); addTodo(text: string) {

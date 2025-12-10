@@ -1,7 +1,7 @@
 ---
 layout: project
-title: heartbreak monitor
-description: lorem ipsum dolor sit amet
+title: Global Emotional Wellbeing Monitor
+description: A real-time sentiment analytics dashboard
 tech_stack:
     - Angular
     - Tailwind
@@ -16,8 +16,3 @@ github_url: https://github.com/fpsdf/heartbreak-monitor
 ## about this project
 
 A global monitor of emotional volatility, trends and hope
-
-## features
-
-- Pinpointed map
-- Timeline
