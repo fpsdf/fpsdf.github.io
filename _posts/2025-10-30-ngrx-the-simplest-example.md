@@ -46,15 +46,26 @@ part 2: the normal way
 Here's the same thing with a service:
 
 ```
-@Injectable({providedIn: 'root'}) export class TodoService { private todos =
-signal<Todo[]
-  >([]); readonly todos$ = computed(() => this.todos()); addTodo(text: string) {
-  this.todos.update(todos => [...todos, { id: Date.now(), text, done: false }]);
-  } toggleTodo(id: number) { this.todos.update(todos => todos.map(t => t.id ===
-  id ? {...t, done: !t.done} : t) ); } } // component todos =
-  this.todoService.todos$; addTodo(text: string) {
-  this.todoService.addTodo(text); }</Todo[]
->
+@Injectable({providedIn: 'root'})
+export class TodoService {
+  private todos = signal<Todo[]>([]);
+  readonly todos$ = computed(() => this.todos());
+
+  addTodo(text: string) {
+    this.todos.update(todos => [...todos, { id: Date.now(), text, done: false }]);
+  }
+
+  toggleTodo(id: number) {
+    this.todos.update(todos => todos.map(t => t.id === id ? {...t, done: !t.done} : t));
+  }
+}
+
+// component
+todos = this.todoService.todos$;
+
+addTodo(text: string) {
+  this.todoService.addTodo(text);
+}
 ```
 
 files needed:

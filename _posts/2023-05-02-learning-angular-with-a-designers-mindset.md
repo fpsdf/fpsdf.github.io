@@ -1,25 +1,22 @@
 ---
-title: "learning Angular with a designer’s mindset"
+title: "learning Angular (sorta backwards)"
 layout: post
 ---
 
-when I started learning Angular, I did what most people do: followed tutorials, copied some code, and tried to understand what `rxjs` actually does.
+I learned Angular backwards. Most people start with TypeScript concepts and architecture. I started by fiddling around with buttons and trying to make things look right.
 
-but the thing is — I came to Angular mostly from a design background. my brain doesn’t start with “how do I structure this in code?” — it starts with _“what should this look and feel like?”_ and _“how does the user move through it?”_
+Came from doing design stuff, so my brain thinks in screens and flows, not in "how should this be architected." Felt like a disadvantage at first.
 
-at first, that felt like a disadvantage. I wasn’t thinking in components and inputs — I was thinking in buttons, screens, flows.
+Then I realized components are just the boxes I was already drawing. A card is a card. A button is a button. Angular just makes them reusable and gives them inputs/outputs.
 
-but then I realized: that’s exactly what components are.
+What actually helped:
 
-Angular just gave me names for things I was already designing — “Card”, “Button”, “Form”, “List”. suddenly, I wasn’t writing code to write code. I was building an interface the same way I’d sketch one: thinking in reusable pieces, visual consistency, and interaction patterns.
+- Drew the UI first (sometimes on paper like a caveman), then built components that matched
+- Named things the same in code as I would in Figma—if it's a PrimaryButton in the design, it's PrimaryButton in the code
+- Treated components like design system pieces: here's the thing, here's what you can customize, done
 
-here’s what helped me the most:
+RxJS still makes no sense half the time but whatever, that's what StackOverflow is for.
 
-- **start with layout**: I sketched the UI first (even on paper), and then mapped components to parts of the layout.
-- **think in boxes**: every component is a box with an input and an outputs — data in, UI and events out.
-- **name with intention**: if I’d call it a “PrimaryButton” in Figma, that’s what I call it in my code.
-- **keep styling scoped**: Angular scopes styles to components by default.
-
-Angular started to feel less like a framework and more like a toolbox for building the same things I used to draw.
+The framework clicked when I stopped trying to learn it "properly" and just built stuff the way that made sense to me.
 
 ---

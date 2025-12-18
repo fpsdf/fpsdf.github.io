@@ -3,14 +3,16 @@ title: "building without frameworks"
 layout: post
 ---
 
-tooling, build steps, plugins, dependencies, modules, bundlers… before you’ve written a single line of real code, you’ve already been through a small bureaucratic hell.
+Last week I spent 40 minutes fighting with Vite config. Not building anything, just trying to make the fucking thing start.
 
-that’s when I sometimes just open a folder, drop in an `index.html`, a `style.css` and a `script.js`, and go: _ahhh_. no build, no deploy pipeline, no dependencies yelling at me because Node updated. just a browser and some basic files.
+So I said screw it and made a folder with index.html, style.css, script.js. Double-click the HTML. Done.
 
-there’s something really nice or maybe even grounding about building a small project without any frameworks. just HTML, CSS, and JavaScript like it’s 2004.
+Forgot how nice this is. No build step. No watching. No "module not found" because I breathed wrong. Just refresh the browser.
 
-I recently built a tiny little project this way (I'll share it here soon. or maybe never), and it reminded me that simplicity can be a feature. it loads fast. it works offline. no client-side routing to debug. and I can deploy it anywhere in seconds — GitHub Pages, a zip file, whatever.
+Built a small thing this way (might share it, might not). Deployed it by dragging the folder to Vercel. Took 10 seconds.
 
-I love modern tools. I see the power of components, state, all the good stuff. but sometimes, stripping things back reminds me _why_ I like to build things in the first place.
+I'm not saying frameworks are bad—I use Angular at work and it's fine for big stuff. But sometimes you just want to make a button do something without installing 200 packages first.
+
+Also there's something satisfying about view source actually showing you the code instead of 5MB of webpack runtime.
 
 ---
