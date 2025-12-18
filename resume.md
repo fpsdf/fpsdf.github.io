@@ -33,7 +33,7 @@ Maintained and expanded a critical **defect management system** used in automoti
 
 Developed and maintained internal software tools for managing **aviation insurance contracts** and policy workflows; worked in a legacy-heavy stack, ensuring stability and gradual modernization of key components; created automation scripts for data processes, reducing manual errors in policy handling; Produced technical documentation to assist onboarding and support teams.
 
-**Tech:** WinDev, WLanguage | .NET, C# | MSSQL
+**Tech:** WinDev, WLanguage , .NET, C# | MSSQL
 
 ### SOFTWARE ENGINEER | CAPGEMINI @ InSecTT, R&D | 2023
 
