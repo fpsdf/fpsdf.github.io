@@ -2,3 +2,8 @@ code {
     color: black;
     background-color: #dadada;
 }
+
+// Wider layout for resume page
+body.resume-page .w {
+    max-width: 960px;
+}
