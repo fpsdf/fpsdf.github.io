@@ -1,5 +1,5 @@
 ---
-title: "learning Angular (sorta backwards)"
+title: "learning Angular sorta backwards"
 layout: post
 ---
 

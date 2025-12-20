@@ -5,6 +5,8 @@ entries:
   - title: "I know it's hard to build UIs that don't suck. <a href='/about'>about me...</a>"
   - title: "I develop and design things that hopefully don't. <a href='/projects'>projects...</a>"
   - title: "you can bother me anytime. just please <a href='mailto:franciscopauloferreira@gmail.com'>email me</a>."
+  - title: "we can also connect like proper humans. <a href='https://www.linkedin.com/in/fferrei'>linkedin...</a>"
+  - title: "meanwhile, will you take a look at my <a href='/resume'>resume</a>?"
 
   - title: posts
     post_list:
