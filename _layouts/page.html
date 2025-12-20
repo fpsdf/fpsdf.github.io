@@ -4,6 +4,8 @@ layout: default
 
 {%-include back_link.html-%}
 
+{% unless page.hide_title %}
 <h1>{{ page.title }}</h1>
+{% endunless %}
 
 {{ content }}
