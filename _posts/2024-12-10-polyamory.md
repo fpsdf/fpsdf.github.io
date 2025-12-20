@@ -7,7 +7,7 @@ layout: post
 
 I currently have six branches open on a work project. Maybe seven.
 
-At first this felt like chaos. Still does sometimes.
+At first it felt like chaos. And still does.
 
 #### how it starts
 
