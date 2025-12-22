@@ -1,0 +1,179 @@
+---
+---
+
+/*
+ * Dedicated Print Stylesheet for Resume
+ * This file is loaded AFTER all other styles specifically for print media
+ */
+
+@media print {
+    /* CRITICAL: Remove all filters and transforms from theme */
+    html,
+    body,
+    body[a="dark"],
+    body[a="auto"],
+    body * {
+        filter: none !important;
+        -webkit-filter: none !important;
+        transform: none !important;
+    }
+
+    /* Force clean black on white */
+    html {
+        background: white !important;
+    }
+
+    body {
+        background: white !important;
+        color: #000 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        font-family: "JetBrains Mono", monospace !important;
+        font-size: 9pt !important;
+        line-height: 1.3 !important;
+    }
+
+    /* Container with optimized margins for A4 */
+    .w {
+        max-width: 100% !important;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 1.5cm 2cm !important;
+    }
+
+    /* Hide navigation completely */
+    a[href="/"],
+    .back-link,
+    nav,
+    .goat-counter,
+    .w > a:first-child {
+        display: none !important;
+        height: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        visibility: hidden !important;
+    }
+
+    /* Optimize headings for compact layout */
+    h1, h2, h3, h4, h5, h6 {
+        color: #000 !important;
+        page-break-after: avoid !important;
+        page-break-inside: avoid !important;
+    }
+
+    h2 {
+        font-size: 13pt !important;
+        margin-top: 1.2rem !important;
+        margin-bottom: 0.6rem !important;
+    }
+
+    h3 {
+        font-size: 11pt !important;
+        margin-top: 0.8rem !important;
+        margin-bottom: 0.4rem !important;
+    }
+
+    h4 {
+        font-size: 9.5pt !important;
+        margin-top: 0.6rem !important;
+        margin-bottom: 0.3rem !important;
+    }
+
+    /* Compact paragraphs */
+    p {
+        margin: 0.3rem 0 !important;
+        color: #000 !important;
+        page-break-inside: avoid !important;
+    }
+
+    /* Optimize list spacing */
+    ul, ol {
+        margin: 0.4rem 0 !important;
+        padding-left: 1.5rem !important;
+        page-break-inside: avoid !important;
+    }
+
+    li {
+        margin: 0.2rem 0 !important;
+        color: #000 !important;
+    }
+
+    /* Clean horizontal rules */
+    hr {
+        border: 0 !important;
+        border-top: 1px solid #999 !important;
+        margin: 0.8rem 0 !important;
+        height: 0 !important;
+    }
+
+    hr:before,
+    hr:after {
+        content: "" !important;
+        display: none !important;
+    }
+
+    /* Links styling */
+    a {
+        color: #000 !important;
+        text-decoration: none !important;
+    }
+
+    a[href^="mailto:"],
+    a[href^="http"] {
+        text-decoration: underline !important;
+    }
+
+    /* Don't print URLs after links */
+    a[href]::after {
+        content: "" !important;
+    }
+
+    /* Code blocks if any */
+    code {
+        background: #f5f5f5 !important;
+        color: #000 !important;
+        border: 1px solid #ddd !important;
+        padding: 1px 3px !important;
+        font-size: 8pt !important;
+    }
+
+    /* Strong text */
+    strong {
+        color: #000 !important;
+        font-weight: bold !important;
+    }
+
+    /* Ensure no page breaks in awkward places */
+    section,
+    article {
+        page-break-inside: avoid !important;
+    }
+
+    /* Remove any borders from theme */
+    blockquote,
+    table,
+    th,
+    td {
+        border-color: #999 !important;
+    }
+
+    /* Optimize page breaks */
+    @page {
+        margin: 1.5cm;
+        size: A4;
+    }
+
+    /* Allow specific breaks if needed */
+    .page-break-before {
+        page-break-before: always !important;
+    }
+
+    .page-break-after {
+        page-break-after: always !important;
+    }
+
+    /* Compact the first title */
+    h3:first-of-type {
+        margin-top: 0 !important;
+    }
+}
