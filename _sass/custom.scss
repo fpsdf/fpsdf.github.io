@@ -1,15 +1,18 @@
+body {
+	background: #e3e3e3;
+	color: #0a1727;
+}
+
+a {
+	color: #255adf;
+    text-decoration: none;
+}
+
 code {
     color: black;
     background-color: #dadada;
 }
 
-// Wider layout for resume page
 body.resume-page .w {
     max-width: 960px;
 }
-
-a {
-    text-decoration: none;
-}
-
-// Print styles are now in assets/css/print-resume.scss

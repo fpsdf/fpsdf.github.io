@@ -4,21 +4,18 @@ title: resume
 hide_title: true
 ---
 
-### RESUME OF FRANCISCO FERREIRA
+## RESUME OF FRANCISCO FERREIRA
 
-Frontend Developer who comes from a design background — which means I care about the look, feel, and performance of everything I build.
+Frontend Developer who comes from a design background — which means I care about the look, feel, and performance of everything I build.  
+I've worked with Angular, React, Vue.js and other tools to craft user interfaces that are not just functional, but pleasant to use.  
 
-I've worked with Angular, React, Vue.js and other tools to craft user interfaces that are not just functional, but pleasant to use.
-
-**Phone:** +351 934 916 767
-
-**Email:** [franciscopauloferreira@gmail.com](mailto:franciscopauloferreira@gmail.com)
-
+**Phone:** +351 934 916 767  
+**Email:** [franciscopauloferreira@gmail.com](mailto:franciscopauloferreira@gmail.com)  
 **LinkedIn:** [www.linkedin.com/in/fferrei](https://www.linkedin.com/in/fferrei)
 
 ---
 
-### PROFESSIONAL EXPERIENCE
+## PROFESSIONAL EXPERIENCE
 
 #### Software Engineer | CAPGEMINI @ LabFS (R&D) | 2025
 

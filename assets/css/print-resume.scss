@@ -37,8 +37,9 @@
     .w {
         max-width: 100% !important;
         width: 100% !important;
-        margin: 0 !important;
+        margin: 0 auto !important;
         padding: 1.5cm 2cm !important;
+        box-sizing: border-box !important;
     }
 
     /* Hide navigation completely */

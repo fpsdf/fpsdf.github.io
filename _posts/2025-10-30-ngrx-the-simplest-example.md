@@ -3,7 +3,9 @@ title: "NgRx: the simplest example"
 layout: post
 ---
 
-part 1: the NgRx way
+![tesseract]({{ site.url }}/images/tesseract.jpg)
+
+#### part 1: the NgRx way
 
 here's the absolute simplest NgRx example — a todo list:
 
@@ -41,7 +43,7 @@ files needed:
 
 ---
 
-part 2: the normal way
+#### part 2: the normal way
 
 Here's the same thing with a service:
 
@@ -75,7 +77,7 @@ files needed:
 
 ---
 
-part 3: Still want NgRx?
+#### part 3: Still want NgRx?
 
 NgRx gives:
 
