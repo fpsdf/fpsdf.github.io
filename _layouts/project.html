@@ -3,7 +3,7 @@ layout: default
 ---
 
 {%-include back_link.html-%}
-<p><a href="{{ '/projects.html' | relative_url }}">&nbsp &nbsp projects ↩</a></p>
+<!-- <p><a href="{{ '/projects.html' | relative_url }}">&nbsp &nbsp projects ↩</a></p> -->
 
 <style>
   .project-header {
@@ -58,7 +58,7 @@ layout: default
   }
 
   .project-links {
-    justify-content: center;
+    justify-content: left;
     display: flex;
     gap: 1rem;
     margin-bottom: 3rem;
@@ -78,7 +78,7 @@ layout: default
   }
 
   .tech-stack {
-    justify-content: center;
+    justify-content: left;
     display: flex;
     flex-wrap: wrap;
     gap: 0.75rem;
@@ -141,7 +141,11 @@ layout: default
   <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.title }}" />
   {% elsif page.emoji %} {{ page.emoji }} {% endif %}
 </div>
-{% endif %} {% if page.live_url or page.github_url %}
+{% endif %}
+
+<div class="project-content">{{ content }}</div>
+
+{% if page.live_url or page.github_url %}
 <div class="project-links">
   {% if page.live_url %}
   <a href="{{ page.live_url }}" target="_blank" rel="noopener noreferrer"
@@ -154,14 +158,13 @@ layout: default
   {% endif %}
 </div>
 {% endif %} {% if page.tech_stack %}
+<h4>tech stack:</h4>
 <div class="tech-stack">
   {% for tech in page.tech_stack %}
   <span class="tech-item">[{{ tech }}]</span>
   {% endfor %}
 </div>
 {% endif %}
-
-<div class="project-content">{{ content }}</div>
 
 <hr style="margin: 3rem 0" />
 

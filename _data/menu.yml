@@ -3,20 +3,20 @@
 
 entries:
   - title: "I know it's hard to build UIs that don't suck. <a href='/about'>about me...</a>"
-  - title: "I develop things that hopefully don't:"
+  - title: "I develop things that hopefully don't. here some:"
     project_list:
-      limit: 3
+      limit: 5
       show_more: true
       show_more_text: more projects...
       show_more_url: projects.html
 
-  - title: "you can bother me anytime. just <a href='mailto:franciscopauloferreira@gmail.com'>email me</a>."
-  - title: "we can also connect like normies. <a href='https://www.linkedin.com/in/fferrei' target='_blank'>linkedin...</a>"
-  - title: "meanwhile, will you take a look at my <a href='/resume'>resume</a>?"
+  - title: "you can reach out anytime. just <a href='mailto:franciscopauloferreira@gmail.com'>email me...</a>"
+  - title: "we can also connect like normies via <a href='https://www.linkedin.com/in/fferrei' target='_blank'>linkedin...</a>"
+  - title: "meanwhile, I invite you to take a look at my <a href='/resume'>resume...</a>"
 
-  - title: posts
+  - title: "and here's some life-changing mind-boggling content:"
     post_list:
-      limit: 3
+      limit: 10
       show_more: true
       show_more_text: more posts...
       show_more_url: archive.html

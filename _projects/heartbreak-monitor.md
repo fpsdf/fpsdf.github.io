@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Global Emotional Wellbeing Monitor
+title: a global emotional monitor
 description: A real-time sentiment analytics dashboard
 tech_stack:
     - Angular

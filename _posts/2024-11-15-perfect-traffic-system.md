@@ -43,8 +43,8 @@ It's like adding another lane to a highway. Feels great for a bit, then it's jus
 
 #### so what's the point?
 
-Maybe the point is that this isn't a problem we can tech-moonwalk our way out of. The optimal traffic system probably's not an algorithm and is more like "ban half the cars".
+Maybe the point is that this isn't a problem we can moonwalk our way out of. The optimal traffic system probably's not an algorithm and is more like "ban half the cars".
 
-:))) But heyyy! Good luck selling that to anyone.
+:))) But heyyy! Good luck with that.
 
 ---

@@ -15,7 +15,7 @@
     {%- for project in projects limit: include.limit -%}
         <li>
           <!-- <span>{{- project.date | date: site.theme_config.date_format -}}</span> -->
-          {% if site.theme_config.lowercase_titles == true %}
+          {% if site.theme_config.lowercase_titles == false %}
           <a href="{{ project.url | relative_url }}">{{ project.title | downcase }}</a>
           {% else %}
           <a href="{{ project.url | relative_url }}">{{ project.title }}</a>

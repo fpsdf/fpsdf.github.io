@@ -1,6 +1,6 @@
 ---
 layout: project
-title: debate timer
+title: a debate timer
 description: lorem ipsum dolor sit amet
 tech_stack:
     - Next.js
@@ -11,11 +11,8 @@ live_url: https://debate-timer-kappa.vercel.app/
 github_url: https://github.com/fpsdf/debate-timer
 ---
 
-## about this project
-
 Came across this idea at a dinner-party-turned-into-political-debate. As a nonpoliticized individual, this was, well, my contribution.
 
-## features
-
+#### features:
 - Mapped keys for quick control
 - Broadcast channel displaying times
