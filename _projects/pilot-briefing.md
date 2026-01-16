@@ -6,7 +6,7 @@ tech_stack:
     - Angular
     - Tailwind
 date: 2025-11-15
-emoji: 💔
+emoji: 🛫
 gradient: 4
 live_url: https://pilot-briefing.vercel.app/
 github_url: https://github.com/fpsdf/pilot-briefing
